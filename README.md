@@ -11,17 +11,20 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 Svolgimento
 
 1. Raccolta dati
-    - [ ] Chiedere il numero di chilometri che percorrerà.
-    - [ ] Chiedere l'età del passeggero
-    - [ ] creazione variabile prezzo biglietto per km
+    - [x] Chiedere il numero di chilometri che percorrerà.
+    - [x] Chiedere l'età del passeggero
+    - [x] creazione variabile prezzo biglietto 
+    - [x] creazione variabile sconto del 20%
+    - [x] creazione variabile sconto del 40%
 
 2. Esecuzione logica:
-    - [ ] calcolo dei km da percorre * il prezzo unitario 
-    
-    >Se l'età è < di 18 anni all'ora applichiamo lo sconto del 20%,(prezzo tot in base ai km *20 /100)
-    se l'età > di 65 anni allora applichiamo uno sconto del 40% (prezzo tot in base ai km *40 /100)
+    - [x] calcolo dei km da percorre * il prezzo unitario 
+   
+
+    >Se l'età è < di 18 anni all'ora applichiamo lo sconto del 20%,(prezzo tot in base ai km - var sconto 20%)
+    se l'età > di 65 anni allora applichiamo uno sconto del 40% (prezzo tot in base - var sconto 40%)
     altrimenti 
     prezzo pieno (prezzo tot in base ai km)
 
 3. output
- - [ ] Stampa prezzo finale
+ - [x] Stampa prezzo finale con massimo due decimali.

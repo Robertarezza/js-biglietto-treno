@@ -34,7 +34,7 @@ let priceFinal = ""; //number
 if (age >= 1  && age < 18) {
     priceFinal = ticketPrice - discount20;
     //Stampa
-    document.getElementById("result").innerHTML = "Le è stato applicato uno sconto del 20%, il prezzo del Ticke è:" + " " + (priceFinal.toFixed(2)) + "€";
+    document.getElementById("result").innerHTML = "Le è stato applicato uno sconto del 20%, il prezzo del Ticket è:" + " " + (priceFinal.toFixed(2)) + "€";
 } else if (age >= 65) {
     priceFinal = ticketPrice - discount40;
     //Stampa
